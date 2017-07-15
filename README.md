@@ -1,5 +1,5 @@
 ## 1. 启动 （项目生成）
-`webpack-dev-server --port 1234 --inline --hot`( --content-base src可以不写)
+`webpack-dev-server --port 1234 --inline --hot`
 >[参考](http://www.cnblogs.com/fantasy-zxf/p/6795809.html)
 ### 备注：此处，webpack使用版本1；webpack-dev-server全局安装（npm install -g webpack-dev-server）
 ## 2. 样式 (Ant Design 框架引入)
