@@ -30,9 +30,7 @@
 ## 源码参考
 [链接](https://github.com/ParryQiu/IMOOC-React)
 ## 备注：课程资源及报错解决
-<<<<<<< HEAD
 >[参考](http://www.imooc.com/article/17442?block_id=tuijian_wz)
-=======
->[参考](http://www.imooc.com/article/17442?block_id=tuijian_wz)
->>>>>>> 52784da8938e606a73ca3c8703c7e749e789714f
+
+
 
