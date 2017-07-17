@@ -2,7 +2,7 @@ import React from 'react';
 import {Card} from 'antd';
 import {Router,Route,Link,browserHistory} from 'react-router';
 
-export default class OCNewsBlock extends React.Component{
+export default class PCNewsBlock extends React.Component{
     constructor(){
         super();
         this.state = {

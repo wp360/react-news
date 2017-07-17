@@ -27,6 +27,8 @@
 <Input type="password" {...getFieldDecorator('r_confirmPassword')} placeholder="请再次输入您的密码" />
 ```
 
+## 备注：git解决冲突与merge
+[链接](http://blog.csdn.net/lincyang/article/details/45269491)
 ## 源码参考
 [链接](https://github.com/ParryQiu/IMOOC-React)
 ## 备注：课程资源及报错解决

@@ -2,6 +2,7 @@ import React from 'react';
 import {Row, Col} from 'antd';
 import {Tabs,Carousel} from 'antd';
 import PCNewsBlock from './pc_news_block';
+import PCNewsImageBlock from './pc_news_image_block';
 
 const TabPane = Tabs.TabPane;
 
@@ -20,12 +21,15 @@ export default class PCNewsContainer extends React.Component{
                     <Col span={2}></Col>
                     <Col span={20} class="container">
                         <div class="leftContainer">
-                            <Carousel {...settings}>
-                                <div><img src="./src/images/carousel_1.jpg" /></div>
-                                <div><img src="./src/images/carousel_2.jpg" /></div>
-                                <div><img src="./src/images/carousel_3.jpg" /></div>
-                                <div><img src="./src/images/carousel_4.jpg" /></div>
-                            </Carousel>
+                            <div class="carousel">
+                                <Carousel {...settings}>
+                                    <div><img src="./src/images/carousel_1.jpg" /></div>
+                                    <div><img src="./src/images/carousel_2.jpg" /></div>
+                                    <div><img src="./src/images/carousel_3.jpg" /></div>
+                                    <div><img src="./src/images/carousel_4.jpg" /></div>
+                                </Carousel>
+                            </div>
+                            <PCNewsImageBlock count={6} type="guoji" width="400px" cartTiltle="国际头条" imageWidth="112px" />
                         </div>
                         <Tabs class="tabs_news">
                             <TabPane tab="头条新闻" key="1">
@@ -35,6 +39,10 @@ export default class PCNewsContainer extends React.Component{
                                 <PCNewsBlock count={20} type="guoji" width="100%" bordered="false" />
                             </TabPane>
                         </Tabs>
+                        <div class="newsCont">
+                            <PCNewsImageBlock count={10} type="guonei" width="100%" cartTiltle="国内新闻" imageWidth="132px" />
+                            <PCNewsImageBlock count={10} type="yule" width="100%" cartTiltle="娱乐新闻" imageWidth="132px" />
+                        </div>
                     </Col>
                     <Col span={2}></Col>
                 </Row>
