@@ -21,7 +21,7 @@
 ## 修改
 ```javascript
 <Input type="text" {...getFieldDecorator('r_userName')} placeholder="请输入您的账户" />
-{getFieldDecorator('r_userName')(<Input type="text" placeholder="请输入您的账户" />)}
+{getFieldDecorator('userName', {rules: [{ required: true, message: 'Please input your username!' }],})(<Input prefix={<Icon type="user" style={{ fontSize: 13 }} />} placeholder="请输入您的账号" />)}
 以此类推
 <Input type="password" {...getFieldDecorator('r_password')} placeholder="请输入您的密码" />
 <Input type="password" {...getFieldDecorator('r_confirmPassword')} placeholder="请再次输入您的密码" />
