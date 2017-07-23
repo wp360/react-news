@@ -2,16 +2,20 @@
 
 ## 1. 启动 （项目生成）
 `webpack-dev-server --port 1234 --inline --hot`
+>（--port 1234 可以去除，使用默认端口）
 >[参考](http://www.cnblogs.com/fantasy-zxf/p/6795809.html)
 ### 备注：此处，webpack使用版本1；webpack-dev-server全局安装（npm install -g webpack-dev-server）
 ## 2. 样式 (Ant Design 框架引入)
 `npm install antd --save`
+>[参考](https://ant.design/docs/react/introduce-cn)
 ## 3. 接口 (Postman的使用)
 ## 4. 响应式 (React-Responsive)
 `npm install react-responsive --save`
 ## 5. 移动端页面
 >root.js导入import MediaQuery from 'react-responsive';
+
 >[参考](https://github.com/contra/react-responsive)
+
 >新增相关组件及样式
 ## 6. fetch
 `npm install fetch --save`

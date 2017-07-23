@@ -21,8 +21,8 @@ export default class PCNewsDetails extends React.Component {
         .then(json => {
             this.setState({newsItem: json});
             document.title = this.state.newsItem.title + " -React News | React 驱动的新闻平台";
-        })
-    };
+        });
+    }
     createMarkup(){
         return {__html: this.state.newsItem.pagecontent};
     };
