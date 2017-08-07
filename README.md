@@ -30,6 +30,8 @@
 <Input type="password" {...getFieldDecorator('r_password')} placeholder="请输入您的密码" />
 <Input type="password" {...getFieldDecorator('r_confirmPassword')} placeholder="请再次输入您的密码" />
 ```
+## HTML to JSX Compiler
+[链接](http://magic.reactjs.net/htmltojsx.htm)
 
 ## 备注：git解决冲突与merge
 [链接](http://blog.csdn.net/lincyang/article/details/45269491)
